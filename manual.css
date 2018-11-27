@@ -1,0 +1,131 @@
+
+html, body 
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;		
+	background-image: url("Images/background.jpg");
+	overflow: hidden;
+}
+
+
+
+#bodyandmap
+{
+	position:relative;
+	height: 100%;
+	width: 100%;
+}
+
+#bodyandmap, img 
+{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+#interactivebody {
+	display: none;
+}
+
+.arrow
+{	position: fixed;
+	margin: 22% auto;
+	left: 70%;
+	
+}
+.arrow:hover
+{
+	opacity: 70%;
+}
+
+
+#exercise1 
+{
+	position: fixed;
+	left: -16%;
+	margin-top: 37%;
+	display: none;
+	
+}
+#exercise1pic {
+	
+	margin-bottom: 13%;
+	position: fixed;
+	left: -16%;
+	z-index : 1;
+	display: none;
+}
+#exercise2
+{
+	position: fixed;
+	left: 56%;
+	margin-top: 37%;
+	display: none;
+	
+	
+}
+#exercise2pic {
+	
+	margin-bottom: 13%;
+	position: fixed;
+	left: 53%;
+	display: none;
+}
+
+.imgPopUp
+{
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 2; /* Sit on top */
+	left: -25%;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	
+}
+
+#imgPopUp-Content, img
+{
+	z-index: 1;
+}
+
+.imgPopUp-Content
+{
+	
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 80px;
+	
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.imgPopUp-Content:hover, img {
+	opacity: 70%;
+}
+
+/* Modal Content */
+.imgPopUp-Content {
+    position: relative;
+    padding: 0;   
+    width: 397px;
+	height: 126px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 1s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {bottom: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+

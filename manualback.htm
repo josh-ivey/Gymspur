@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="GymSpur">
+		<title>GymSpur</title>
+		<link rel="stylesheet" type="text/css" href="manual.css"> 
+	</head>
+	<body>
+	
+	<audio id="display" src="soundfiles\Intro.mp3"></audio>
+	<audio id="select" src="soundfiles\Select.mp3"></audio>
+	<audio id="intro" src="soundfiles\Intro.mp3"></audio>
+	<audio id="flip" src="soundfiles\Flip.mp3"></audio>
+	
+		<div id="Exercises" class="Exercises">
+			<div class="exerciseInfo">
+				<img id="exercise1" src="Images\Bench Press.png" border="0" width="307" height="94.16" orgWidth="307" orgHeight="94.16">
+				<img id="exercise1pic" src="" border="0" width="419" height="419" orgWidth="419" orgHeight="419">
+				<img id="exercise2" src="Images\pectoralfly.png" border="0" width="307" height="94.16" orgWidth="307" orgHeight="94.16">
+				<img id="exercise2pic" src="" border="0" width="419" height="419" orgWidth="419" orgHeight="419">
+			</div>
+		</div
+	
+		
+		<div id ="bodyandmap">
+			<img id="interactivebody" src="Images\backBody2.png" hidefocus="true" border="0" width="357" height="615" orgWidth="357" orgHeight="615" usemap="#thebodymap" />
+			<map name="thebodymap" id="thebodymap">
+				
+				<area shape="rect" coords="355,613,357,615" alt="Image Map" style="outline:none;" title="thebodymap" />
+				<area id="Back" alt="" title="Back" href="#" shape="poly" coords="116,123,156,107,199,107,235,129,215,135,239,148,235,175,226,225,232,261,197,264,178,266,146,261,128,258,131,226,118,169,116,149,138,134" style="outline:none;" target="_self">
+				<area id="Triceps" alt="" title="Triceps" href="#" shape="poly" coords="85,215,85,194,97,176,115,172,121,190,120,218,114,223,60,211,71,99,176,25,230,55,285,160,273,211,260,218,244,226,234,214,235,189,243,173,257,177,269,195,275,210,284,159,235,62,183,28,171,28,75,95,60,206,70,215" style="outline:none;" target="_self"     />
+				<area id="Hamstrings" alt="" title="Hamstrings" href="#" shape="poly" coords="125,262,154,265,178,280,202,265,231,264,252,405,216,412,194,425,159,421,146,413,126,417,123,372,107,342" style="outline:none;" target="_self"     />
+			
+			</map>
+		</div>
+		
+		<div id="imgPopUp" class="imgPopUp" >
+			<div class="imgPopUp-Content">
+				<a href="#"><img id="pectoralsimg" src="Images\preExercises.png" href="#" width="397" height="126" orgWidth="397" orgHeight="126" ></a>
+					
+			</div>
+		</div>
+		
+		<div id="arrow" class="arrow">
+			<a href="manual.htm"><img src="Images\changeView.png" onmousedown="play.flip()" border="0" width="150" height="150" ></a>
+		</div>
+		
+		<!-- <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous"></script> -->
+		<script>window.jQuery || document.write('<script src="jquery-3.1.1.min.js"><\/script>');</script>
+		
+		<script src="manualback.js"></script>
+	</body>
+</html>

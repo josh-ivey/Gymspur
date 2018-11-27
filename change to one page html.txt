@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="GymSpur">
+		<title>GymSpur</title>
+		<link rel="stylesheet" type="text/css" href="manual.css"> 
+	</head>
+	<body>
+	
+	<audio id="display" src="soundfiles\Intro.mp3"></audio>
+	<audio id="select" src="soundfiles\Select.mp3"></audio>
+	<audio id="intro" src="soundfiles\Intro.mp3"></audio>
+	<audio id="flip" src="soundfiles\Flip.mp3"></audio>
+	
+		
+		
+		<div id="Exercises" class="Exercises">
+			<div class="exerciseInfo">
+				<img id="exercise1" src="Images\Bench Press.png" border="0" width="307" height="94.16" orgWidth="307" orgHeight="94.16">
+				<img id="exercise1pic" src="Images\chest\1.gif" border="0" width="628" height="419" orgWidth="628" orgHeight="419">
+				<img id="exercise2" src="Images\pectoralfly.png" border="0" width="307" height="94.16" orgWidth="307" orgHeight="94.16">
+				<img id="exercise2pic" src="Images\chest\2.gif" border="0" width="628" height="419" orgWidth="628" orgHeight="419">
+			</div>
+		</div
+		
+		
+		<div id ="bodyandmap">
+			<img id="interactivebody" src="Images/body.png" hidefocus="true" border="0" width="357" height="615" orgWidth="357" orgHeight="615" usemap="#thebodymap" />
+			<map name="thebodymap" id="thebodymap">
+				
+				<area shape="rect" coords="355,613,357,615" alt="Image Map" style="outline:none;" title="thebodymap" />
+				<area id="Chest" alt=""  title="Chest" href="#" shape="poly" coords="140,143,176,152,212,143,232,178,201,202,178,191,154,201,124,177" style="outline:none;" target="_self">
+				<area id="Calf" alt="" title="calf" href="#" shape="rect" coords="101,419,254,574" style="outline:none;" target="_self"     />
+				<area id="Neck" alt="" title="neck" href="#" shape="poly" coords="155,101,149,69,154,46,197,44,208,79,202,111,234,127,179,142,122,127" style="outline:none;" target="_self"     />
+				<area id="Shoulders" alt="" title="shoulders" href="#" shape="poly" coords="242,132,255,144,260,167,250,184,221,142,216,141,179,147,110,132,100,145,100,176,107,183,135,139,174,146,215,139,208,141" style="outline:none;" target="_self"     />
+				<!-- <area id="Shoulders" alt="" title="shoulders" href="#" shape="poly" coords="250,186,263,163,253,129,222,142" style="outline:none;" target="_self"     /> -->
+				<area id="Abs" alt="" title="abs" href="#" shape="poly" coords="141,202,176,216,210,203,223,224,220,264,198,282,159,282,136,265,141,233,130,220" style="outline:none;" target="_self"     />
+				<area id="Biceps" alt="" title="biceps" href="#" shape="poly" coords="251,232,262,217,261,200,234,180,223,195,232,224" style="outline:none;" target="_self"     />
+				<area id="Biceps2" alt="" title="biceps2" href="#" shape="poly" coords="98,200,120,183,135,196,120,227,106,231,96,226" style="outline:none;" target="_self"     />
+				<area id="Forearms" alt="" title="forearms" href="#" shape="poly" coords="265,229.99999877835103,300,291.999998778351,311,336.999998778351,260,344.999998778351,241,270.999998778351,233,264.999998778351,179,297.999998778351,123,266.999998778351,93,340.999998778351,62,345.999998778351,45,321.999998778351,69,268.999998778351,81,227.99999877835103,100,232.99999877835103,125,238.99999877835103,128,253.99999877835103,131,269.999998778351,173,293.999998778351,181,295.999998778351,229,268.999998778351,236,247.99999877835103,237,234.99999877835103" style="outline:none;" target="_self"     />
+				<!-- <area id="Forearms" alt="" title="forearms" href="#" shape="poly" coords="294,348,315,327,295,300,270,228,252,239,234,243,245,277,266,338" style="outline:none;" target="_self"     /> -->
+				<area id="Quads" alt="" title="quads" href="#" shape="poly" coords="129,274,178,302,223,277,238,302,241,369,224,398,196,416,178,406,161,417,131,403,110,356,113,310" style="outline:none;" target="_self"     />
+
+			</map>
+			<map name="thebodymap2" id="thebodymap2">
+				
+				<area shape="rect" coords="355,613,357,615" alt="Image Map" style="outline:none;" title="thebodymap" />
+				<area id="Back" alt="" title="Back" href="#" shape="poly" coords="116,123,156,107,199,107,235,129,215,135,239,148,235,175,226,225,232,261,197,264,178,266,146,261,128,258,131,226,118,169,116,149,138,134" style="outline:none;" target="_self">
+				<area id="Triceps" alt="" title="Triceps" href="#" shape="poly" coords="85,215,85,194,97,176,115,172,121,190,120,218,114,223,60,211,71,99,176,25,230,55,285,160,273,211,260,218,244,226,234,214,235,189,243,173,257,177,269,195,275,210,284,159,235,62,183,28,171,28,75,95,60,206,70,215" style="outline:none;" target="_self"     />
+				<area id="Hamstrings" alt="" title="Hamstrings" href="#" shape="poly" coords="125,262,154,265,178,280,202,265,231,264,252,405,216,412,194,425,159,421,146,413,126,417,123,372,107,342" style="outline:none;" target="_self"     />
+			
+			</map>
+		</div>
+		
+		
+		
+		<div id="imgPopUp" class="imgPopUp" >
+			<div class="imgPopUp-Content">
+				<a href="#"><img id="pectoralsimg" src="Images\preExercises.png" href="#" width="397" height="126" orgWidth="397" orgHeight="126" ></a>
+					
+			</div>
+		</div>
+		
+		<div id="arrow" class="arrow">
+			<a href="#" ><img src="Images\changeView.png" border="0" width="150" height="150" ></a>
+		</div>
+		
+		
+		<!-- <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous"></script> -->
+		<script>window.jQuery || document.write('<script src="jquery-3.1.1.min.js"><\/script>');</script>
+		
+		
+		<script src="manual.js"></script>
+	</body>
+</html>
